@@ -680,7 +680,7 @@
     "folder": "python"
   },
   "qwen_train_data": {
-    "file_name": "/kaggle/input/healthcare-qa-sharegpt/healthcare-qa-sharegpt.json",
+    "file_name": "/kaggle/input/healthcare-qa-sharegpt-40k/healthcare-qa-sharegpt-40k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
