@@ -694,7 +694,7 @@
     }
   },
   "qwen_train_data2": {
-    "file_name": "/kaggle/input/healthcare-qa-sharegpt-10k-json/healthcare-qa-sharegpt-10k.json",
+    "file_name": "/kaggle/input/healthcare-qa-sharegpt/healthcare-qa-sharegpt-10k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
