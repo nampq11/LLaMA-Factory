@@ -679,8 +679,22 @@
     },
     "folder": "python"
   },
-  "qwen_train_data": {
+  "qwen_train_data1": {
     "file_name": "/kaggle/input/healthcare-qa-sharegpt-40k/healthcare-qa-sharegpt-40k.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "qwen_train_data2": {
+    "file_name": "/kaggle/input/healthcare-qa-sharegpt-10k-json/healthcare-qa-sharegpt-10k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
