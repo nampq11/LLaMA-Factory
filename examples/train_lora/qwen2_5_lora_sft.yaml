@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+model_name_or_path: Qwen/Qwen2.5-7B-Instruct
 
 ### method
 stage: sft
@@ -9,19 +9,19 @@ lora_target: all
 lora_rank: 16
 lora_alpha: 16
 lora_dropout: 0.05
-deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: qwen_train_data
+dataset: qwen_train_data1
 template: qwen
 cutoff_len: 1024
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/qwen2.5-0.5b/lora/sft
+output_dir: saves/qwen2.5-7b/lora/sft
 logging_steps: 100
-save_steps: 100
+save_steps: 500
+save_total_limit: 1
 plot_loss: true
 overwrite_output_dir: true
 
